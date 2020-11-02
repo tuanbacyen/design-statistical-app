@@ -5,6 +5,8 @@ $(document).ready(function () {
 
   showTab();
   $('body').on('click', '.btn-tab', tabSelect);
+  // $("#sale_code").val('default');
+  // $("#sale_code").selectpicker("refresh");
 });
 
 function showTab() {
